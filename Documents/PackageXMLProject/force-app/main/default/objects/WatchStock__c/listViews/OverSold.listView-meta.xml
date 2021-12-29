@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OverSold</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>CalSymbolURL__c</columns>
+    <columns>TradeClose__c</columns>
+    <columns>CashPerShare__c</columns>
+    <columns>RSI__c</columns>
+    <columns>FTWRange__c</columns>
+    <columns>CalCompanyName__c</columns>
+    <columns>DayRange__c</columns>
+    <columns>Change__c</columns>
+    <columns>PercentChange__c</columns>
+    <columns>CalMarketCap__c</columns>
+    <columns>LowReachedOn__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RSI__c</field>
+        <operation>lessOrEqual</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CNBCRSI__c</field>
+        <operation>lessOrEqual</operation>
+        <value>0</value>
+    </filters>
+    <label>OverSold</label>
+</ListView>

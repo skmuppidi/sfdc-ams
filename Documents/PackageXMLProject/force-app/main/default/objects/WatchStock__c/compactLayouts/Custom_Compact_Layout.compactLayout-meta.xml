@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>CalSymbolURL__c</fields>
+    <fields>CalCompanyName__c</fields>
+    <fields>TradeClose__c</fields>
+    <fields>PercentChange__c</fields>
+    <fields>FTWRange__c</fields>
+    <fields>CalMarketCap__c</fields>
+    <fields>CalTotalCash__c</fields>
+    <fields>CalTotalDebt__c</fields>
+    <fields>CalRevenue__c</fields>
+    <fields>CashPerShare__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

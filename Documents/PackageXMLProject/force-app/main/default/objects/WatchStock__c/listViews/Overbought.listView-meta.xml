@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overbought</fullName>
+    <columns>CalSymbolURL__c</columns>
+    <columns>CalCompanyName__c</columns>
+    <columns>TradeClose__c</columns>
+    <columns>CashPerShare__c</columns>
+    <columns>CNBCCPS__c</columns>
+    <columns>CalMarketCap__c</columns>
+    <columns>CalTotalDebt__c</columns>
+    <columns>CalTotalCash__c</columns>
+    <columns>SharesOutstanding__c</columns>
+    <columns>RSI__c</columns>
+    <columns>Ignore__c</columns>
+    <columns>LowReachedOn__c</columns>
+    <columns>FTWRange__c</columns>
+    <columns>TwoYearsRange__c</columns>
+    <columns>Symbol__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RSI__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Overbought</label>
+</ListView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ignore_Stocks</fullName>
+    <columns>CalSymbolURL__c</columns>
+    <columns>CalCompanyName__c</columns>
+    <columns>PrevClose__c</columns>
+    <columns>DayRange__c</columns>
+    <columns>TradeClose__c</columns>
+    <columns>CashPerShare__c</columns>
+    <columns>CNBCCPS__c</columns>
+    <columns>Change__c</columns>
+    <columns>PercentChange__c</columns>
+    <columns>Volume__c</columns>
+    <columns>CalMarketCap__c</columns>
+    <columns>LowReachedOn__c</columns>
+    <columns>NAME</columns>
+    <columns>LastTradeDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Ignore__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Buy__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Monitor__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>RSI__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Ignore Stocks</label>
+</ListView>

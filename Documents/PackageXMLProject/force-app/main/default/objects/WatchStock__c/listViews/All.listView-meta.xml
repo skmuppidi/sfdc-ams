@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>CalSymbolURL__c</columns>
+    <columns>CalCompanyName__c</columns>
+    <columns>PrevClose__c</columns>
+    <columns>DayRange__c</columns>
+    <columns>TradeClose__c</columns>
+    <columns>Change__c</columns>
+    <columns>PercentChange__c</columns>
+    <columns>Volume__c</columns>
+    <columns>CalMarketCap__c</columns>
+    <columns>CashPerShare__c</columns>
+    <columns>LowReachedOn__c</columns>
+    <columns>NAME</columns>
+    <columns>LastTradeDate__c</columns>
+    <columns>LastNewsUpdate__c</columns>
+    <columns>LastOptionsUpdate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>
